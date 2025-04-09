@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header class="container">
+            <img src="images/logo.png" id="logo">
+            <img src="/images/user-avatar.png" class="img-avatar">
+        </header>
+        <main id="root">
+            <div class="post">
+                <div class="post-details container">
+                    <img src="/images/avatar-vangogh.jpg" class="img-avatar">
+                    <div>
+                        <h4>Vincent van Gogh</h4>
+                        <p>Zundert, Netherlands</p>
+                    </div>
+                </div>
+                <img src="/images/post-vangogh.jpg" class="img-post">
+                <div class="container">
+                    <div class="like-section" id="like-section">
+                        <i class="fa-regular fa-heart like" data-username="vincey1853" id="like"></i>
+                        <i class="fa-regular fa-comment comment"></i>
+                        <i class="fa-regular fa-paper-plane share"></i>
+                    </div>
+                    <h4 class="num-likes" id="num-likes">0 likes</h4>
+                    <p><span class="user-handle">vincey1853</span> just took a few mushrooms lol</p>
+                </div>
+            </div>
+        </main>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
